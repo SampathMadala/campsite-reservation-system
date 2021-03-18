@@ -1,5 +1,7 @@
 package com.camping.reservation.model;
 
+import java.time.LocalDate;
+
 import lombok.*;
 
 @Data
@@ -7,25 +9,11 @@ import lombok.*;
 @NoArgsConstructor
 public class CampsiteAvailability {
 	
-	private String fromDate;
+	private LocalDate fromDate;
 	
-	private String toDate;
+	private LocalDate toDate;
 
-	public String getFromDate() {
-		return fromDate;
-	}
-
-	public void setFromDate(String fromDate) {
-		this.fromDate = fromDate;
-	}
-
-	public String getToDate() {
-		return toDate;
-	}
-
-	public void setToDate(String toDate) {
-		this.toDate = toDate;
-	}
+	
 	
 	
 
